@@ -1,0 +1,30 @@
+---
+description: ML Python standards for reproducible fracture detection code
+globs: "{src/**,tests/**,notebooks/**}"
+alwaysApply: false
+---
+
+# ML Python Standards
+
+## Reproducibility
+
+- Set random seeds in training scripts (`random`, `numpy`, framework-specific).
+- Store hyperparameters in `src/config.py`; override via environment variables, not hardcoded edits.
+- Save metrics and plots to `outputs/` with timestamps or version labels.
+
+## Paths and Configuration
+
+- Use `pathlib.Path` and `src.config.get_config()` for all project paths.
+- Never pass raw user input directly to file operations without validation.
+- Keep `data/` and `outputs/` gitignored; document expected layouts in `DATA_SPEC.md`.
+
+## Code Organization
+
+- Notebook is the demo artifact; reusable logic lives in `src/`.
+- When extracting from the notebook, preserve behavior — do not change architecture or preprocessing silently.
+- CLI entry points: `python -m src.train`, `src.evaluate`, `src.infer`.
+
+## Dependencies
+
+- Pin major framework (TensorFlow or PyTorch) in `requirements.txt` after notebook audit.
+- Prefer `scikit-learn` for metric computation to stay framework-agnostic where possible.

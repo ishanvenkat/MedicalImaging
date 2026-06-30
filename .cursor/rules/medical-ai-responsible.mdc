@@ -1,0 +1,29 @@
+---
+description: Responsible AI guidelines for medical imaging ML work
+globs: "{src/**,notebooks/**,docs/specifications/**}"
+alwaysApply: false
+---
+
+# Medical AI — Responsible Development
+
+This project is **educational research**, not a clinical product.
+
+## Required Practices
+
+- Never claim the model provides a medical diagnosis. Use language like "assists screening" or "flags images for review."
+- Document limitations: dataset bias, false positives, false negatives, lack of diverse training data.
+- Report clinically meaningful metrics (sensitivity, specificity) alongside accuracy.
+- Do not log patient identifiers or metadata from medical images.
+- Do not use `pickle` to load untrusted model artifacts.
+
+## Presentation and Documentation
+
+- Always include a limitations section when describing results.
+- Discuss responsible AI: who gets access, how models are validated, whether AI could worsen disparities.
+- Cite dataset licenses and acknowledge data diversity gaps honestly.
+
+## Prohibited
+
+- Hardcoding API keys or credentials.
+- Using user-supplied paths without validation.
+- Presenting accuracy alone as proof of clinical readiness.

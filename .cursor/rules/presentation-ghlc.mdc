@@ -1,0 +1,70 @@
+---
+description: GHLC presentation tone, structure, time limits, and submission requirements
+globs: "docs/presentation/**"
+alwaysApply: false
+---
+
+# GHLC Presentation Guidelines
+
+Official sources: `docs/presentation/sources/GHLC_Presentation_Guidelines.pdf` and `docs/presentation/sources/2026 Student Speaker Series Slide Template A.pdf`
+
+## Audience
+
+Global health and science audience (GHLC Student Speaker Series). Assume no deep ML background. Every point must show clear relevance to global health.
+
+## Mandatory Template and Slides
+
+- Use the **2026 GHLC Student Speaker Series slide template** — copy to a folder you own before editing
+- Required slide order: Title → Introduction → *(content)* → References → Acknowledgements → Thank You → Contact
+- Title slide: presentation title, name, school/institution, **date of recording**
+- Contact slide: email and LinkedIn only — **no social media**
+- Cite all non-common-knowledge sources and **images/figures** on the References slide
+
+## Time Budget — 8 Minutes or Less (Spoken)
+
+| Section | Minutes |
+|---------|---------|
+| Title + self-introduction | ~1 |
+| Background / introduction to topic | 2 |
+| Body (project + evidence) | 2–3 |
+| Conclusion (takeaways, call to action) | 2 |
+
+References, Acknowledgements, and Contact are mandatory deck slides; they follow the spoken 8 minutes.
+
+## Self-Introduction Must Include
+
+- Grade, hometown/region, school
+- Extracurricular activities
+- Interests and future plans (professional bio)
+
+## Tone
+
+- Lead with the central question: Can AI expand access to diagnostic healthcare?
+- Use accessible language: "pattern recognition on X-ray images" not layer-by-layer CNN details.
+- Connect every technical point back to healthcare access and equity.
+- Verify facts and statistics with reputable sources before recording.
+
+## Required Content
+
+- Clear global health relevance in background
+- For own work: explain what you did with supporting evidence and figures
+- Limitations: dataset bias, FP/FN, validation gaps
+- Responsible AI: who gets access, validation, disparity risks
+- Personal reflection and call to action or thought-provoking question
+- Extension preview: deployment in low-resource settings
+
+## Recording and Submission
+
+- Pre-recorded Zoom video; **camera and audio on** at all times
+- Formal attire; professional background; minimal noise
+- Deadline: **July 20, 2026, 11:59 PM Eastern**
+- Google Drive folder: `LastName_FirstName_TITLE_OF_PRESENTATION` with editor-access link
+- Form: https://forms.gle/Wx7L1WS59DECbtAV8
+
+## Prohibited
+
+- Claiming the model replaces doctors or provides diagnoses
+- Jargon without plain-language explanation
+- Social media on the contact slide
+- Exceeding 8 minutes without cutting imaging overview first
+- Removing References, Acknowledgements, or Contact slides
